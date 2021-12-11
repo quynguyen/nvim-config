@@ -1,4 +1,4 @@
-require("quy.telescope")
+require("telescope-config.settings")
 
 P = function(v)
   print(vim.inspect(v))

@@ -16,12 +16,13 @@ Plug 'nvim-telescope/telescope-fzy-native.nvim'
 Plug 'nvim-lua/plenary.nvim'
 
 " Language Client
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+"Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
 " Language Server
 Plug 'neovim/nvim-lspconfig'
 Plug 'glepnir/lspsaga.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'hrsh7th/nvim-compe'
 
 " Icons
 Plug 'kyazdani42/nvim-web-devicons'
