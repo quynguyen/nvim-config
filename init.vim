@@ -38,6 +38,12 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 "let g:coc_global_extensions = ['coc-solargraph']
 "
 "================================================================================
+" Neovim Native LSP - Language Server Protocol
+"================================================================================
+" Loads ./lua/nvim-lsp-config/init.lua
+lua require("nvim-lsp-config")  
+"
+"================================================================================
 " Ruby Sorbet
 "================================================================================
 lua require("lspconfig").sorbet.setup{}
@@ -47,9 +53,3 @@ lua require("lspconfig").sorbet.setup{}
 "================================================================================
 " Loads ./lua/nvim-compe-config/init.lua
 lua require("nvim-compe-config")  
-
-"================================================================================
-" Neovim Native LSP - Language Server Protocol
-"================================================================================
-" Loads ./lua/nvim-lsp-config/init.lua
-lua require("nvim-lsp-config")  

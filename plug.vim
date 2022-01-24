@@ -9,7 +9,8 @@ Plug 'overcache/NeoSolarized'
 "
 " Vim staples
 Plug 'tpope/vim-surround'
-
+Plug 'vim-scripts/argtextobj.vim'
+"
 " FuzzyFinder
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
@@ -24,6 +25,9 @@ Plug 'glepnir/lspsaga.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'hrsh7th/nvim-compe'
 
+" Ruby Sorbet
+Plug 'Shopify/vim-sorbet'
+
 " Icons
 Plug 'kyazdani42/nvim-web-devicons'
 "
@@ -32,6 +36,5 @@ Plug 'hoob3rt/lualine.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-lua/completion-nvim'
 Plug 'nvim-lua/popup.nvim'
-
 
 call plug#end()
